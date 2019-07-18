@@ -1,7 +1,7 @@
 
 # Mashroom Quickstart
 
-Quickstart template for [Mashroom Server](https://www.mashroom-server.com), a **integration platform for Micro-Frontends**. 
+Quickstart template for [Mashroom Server](https://www.mashroom-server.com), an **Integration Platform for Microfrontends**. 
 
 This template demonstrates the seamless integration of two different (standalone) express webapp. 
 One webapp is publicly available, one requires authentication. Both share the same session.
