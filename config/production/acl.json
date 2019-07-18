@@ -1,0 +1,12 @@
+{
+    "/webapp2/**": {
+        "*": {
+            "allow": ["Authenticated"]
+        }
+    },
+    "/mashroom/**": {
+        "*": {
+            "allow": ["Administrator"]
+        }
+    }
+}

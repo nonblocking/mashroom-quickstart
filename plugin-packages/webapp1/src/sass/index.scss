@@ -1,0 +1,35 @@
+
+$COLOR_PRIMARY: #645e9d;
+$COLOR_PRIMARY_LIGHT: #938bce;
+$FONT_DEFAULT: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$FONT_HEADER: Georgia, serif;
+
+h1, h2, h3 {
+    font-family: $FONT_HEADER;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: black;
+    font-family: $FONT_DEFAULT;
+    padding: 10px;
+}
+
+a, a:visited, a:focus {
+    color: $COLOR_PRIMARY;
+    text-decoration: underline;
+
+    &:hover {
+        color: $COLOR_PRIMARY_LIGHT;
+    }
+
+    &:active {
+        color: $COLOR_PRIMARY_LIGHT;
+    }
+}

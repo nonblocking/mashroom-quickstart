@@ -1,0 +1,45 @@
+{
+    "name": "webapp2",
+    "description": "Demo webapp that uses the Handlebars engine for rendering",
+    "license": "MIT",
+    "version": "1.0.0",
+    "files": [
+        "dist/**",
+        "views/**",
+        "public/**"
+    ],
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^3.1.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "eslint": "^5.16.0",
+        "node-sass": "^4.12.0",
+        "jest": "^24.8.0",
+        "nodemon": "^1.19.1",
+        "express-session": "^1.16.2"
+    },
+    "scripts": {
+        "lint": "eslint src",
+        "build": "babel src/js -d dist && node-sass --output-style compressed src/sass/index.scss > public/style.css ",
+        "start": "node dist/server.js",
+        "dev": "nodemon --watch src --exec \"npm run build && npm run start\""
+    },
+    "mashroom": {
+        "devModeBuildScript": "build",
+        "plugins": [
+            {
+                "name": "Webapp 2",
+                "type": "web-app",
+                "bootstrap": "./dist/mashroom-bootstrap.js",
+                "requires": [
+                    "Mashroom Session Middleware"
+                ],
+                "defaultConfig": {
+                    "path": "/webapp2"
+                }
+            }
+        ]
+    }
+}

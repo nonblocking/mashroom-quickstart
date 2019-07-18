@@ -1,0 +1,14 @@
+
+*.iml
+.idea/
+data/sessions
+log/
+**/node_modules
+dist/
+tmp/
+plugin-packages/webapp1/public/*.css
+plugin-packages/webapp2/public/*.css
+
+
+
+

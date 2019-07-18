@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1 Jade WebApp
+    p User: #{userName}
+    p Session ID: #{sessionId}
+    p Sample Express Webapp that uses the Jade template engine for rendering.
+    ul
+        li
+            a(href=baseUrl + "/subpage") Goto Subpage
+        li
+            a(href="/webapp2") Goto Webapp 2
+
