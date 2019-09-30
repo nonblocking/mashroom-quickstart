@@ -10,14 +10,15 @@
     ],
     "dependencies": {
         "express": "^4.17.1",
-        "express-handlebars": "^3.1.0"
+        "express-handlebars": "^3.1.0",
+        "handlebars": "^4.3.1"
     },
     "devDependencies": {
-        "@babel/cli": "^7.4.4",
-        "eslint": "^5.16.0",
+        "@babel/cli": "^7.6.2",
+        "eslint": "^6.4.0",
         "node-sass": "^4.12.0",
-        "jest": "^24.8.0",
-        "nodemon": "^1.19.1",
+        "jest": "^24.9.0",
+        "nodemon": "^1.19.2",
         "express-session": "^1.16.2"
     },
     "scripts": {
