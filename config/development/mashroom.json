@@ -22,6 +22,9 @@
         "Mashroom Security Simple Provider": {
             "users": "./users.json"
         },
+        "Mashroom Helmet Middleware": {
+
+        },
         "Mashroom Storage Services": {
             "provider": "Mashroom Storage Filestore Provider"
         },
