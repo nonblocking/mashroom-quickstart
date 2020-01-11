@@ -30,7 +30,7 @@
         "eslint-plugin-flowtype": "^4.6.0",
         "eslint-plugin-jest": "^23.4.0",
         "eslint-plugin-json": "^2.0.1",
-        "flow-bin": "0.109.0"
+        "flow-bin": "^0.115.0"
     },
     "scripts": {
         "setup": "npm install && lerna bootstrap --no-ci",
