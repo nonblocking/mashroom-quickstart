@@ -1,7 +1,9 @@
 {
     "/webapp2/**": {
         "*": {
-            "allow": ["Authenticated"]
+            "allow": {
+                "roles": ["Authenticated"]
+            }
         }
     }
 }
