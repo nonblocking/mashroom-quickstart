@@ -3,22 +3,22 @@
     "version": "1.0.0",
     "private": true,
     "engines": {
-        "node": ">=8.0.0"
+        "node": ">=10.0.0"
     },
     "dependencies": {
-        "@mashroom/mashroom": "^1.4.2",
-        "@mashroom/mashroom-docs-static": "^1.4.2",
-        "@mashroom/mashroom-browser-cache": "^1.4.2",
-        "@mashroom/mashroom-csrf-protection": "^1.4.2",
-        "@mashroom/mashroom-helmet": "^1.4.2",
-        "@mashroom/mashroom-i18n": "^1.4.2",
-        "@mashroom/mashroom-security": "^1.4.2",
-        "@mashroom/mashroom-security-default-login-webapp": "^1.4.2",
-        "@mashroom/mashroom-security-provider-simple": "^1.4.2",
-        "@mashroom/mashroom-session": "^1.4.2",
-        "@mashroom/mashroom-session-provider-filestore": "^1.4.2",
-        "@mashroom/mashroom-storage": "^1.4.2",
-        "@mashroom/mashroom-storage-provider-filestore": "^1.4.2",
+        "@mashroom/mashroom": "^1.4.4",
+        "@mashroom/mashroom-docs-static": "^1.4.4",
+        "@mashroom/mashroom-browser-cache": "^1.4.4",
+        "@mashroom/mashroom-csrf-protection": "^1.4.4",
+        "@mashroom/mashroom-helmet": "^1.4.4",
+        "@mashroom/mashroom-i18n": "^1.4.4",
+        "@mashroom/mashroom-security": "^1.4.4",
+        "@mashroom/mashroom-security-default-login-webapp": "^1.4.4",
+        "@mashroom/mashroom-security-provider-simple": "^1.4.4",
+        "@mashroom/mashroom-session": "^1.4.4",
+        "@mashroom/mashroom-session-provider-filestore": "^1.4.4",
+        "@mashroom/mashroom-storage": "^1.4.4",
+        "@mashroom/mashroom-storage-provider-filestore": "^1.4.4",
         "lerna": "^3.20.2"
     },
     "devDependencies": {
