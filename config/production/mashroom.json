@@ -33,7 +33,8 @@
 
         },
         "Mashroom Storage Services": {
-            "provider": "Mashroom Storage Filestore Provider"
+            "provider": "Mashroom Storage Filestore Provider",
+            "checkExternalChangePeriodMs": 2000
         },
         "Mashroom Storage Filestore Provider": {
             "dataFolder": "../../data/storage"
