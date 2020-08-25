@@ -3,15 +3,15 @@
  */
 
 if (!process.env.NODE_ENV) {
-    console.info("*****************************************");
-    console.info("* NODE_ENV not set, assuming developent *");
-    console.info("*****************************************");
+    console.info("******************************************");
+    console.info("* NODE_ENV not set, assuming development *");
+    console.info("******************************************");
 }
 
 const ENV = process.env.NODE_ENV || 'development';
 const CONF = `config/${ENV}`;
 
-console.info('Using Mashroom config: ', CONF);
+console.info('Using Mashroom Server config: ', CONF);
 
 process.argv = [...process.argv, CONF];
 
