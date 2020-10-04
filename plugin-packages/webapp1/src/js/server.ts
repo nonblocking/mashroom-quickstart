@@ -1,10 +1,9 @@
-// @flow
 /* eslint no-console: off */
 
-/* Standalone server */
+/* Standalone server, not use if it runs in Mashroom */
 
 import express from 'express';
-var session = require('express-session');
+import session from 'express-session';
 import app from './webapp';
 
 const server = express();
@@ -16,7 +15,7 @@ server.use(session({
 
 server.use('/', app);
 
-server.listen(8082, () => {
-    console.log('Listening on 8082');
+server.listen(8081, () => {
+    console.log('Listening on 8081');
 });
 
