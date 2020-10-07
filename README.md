@@ -1,9 +1,9 @@
 
 # Mashroom Quickstart
 
-Quickstart template for [Mashroom Server](https://www.mashroom-server.com), an **Integration Platform for Microfrontends**. 
+Quickstart template for [Mashroom Server](https://www.mashroom-server.com), an **Integration Platform for Microfrontends**.
 
-This template demonstrates the seamless integration of two different (standalone) express webapp. 
+This template demonstrates the seamless integration of two different (standalone) express webapps.
 One webapp is publicly available, one requires authentication. Both share the same session.
 
 If you're interested in the _Mashroom Portal_ and the integration of single page applications,
@@ -21,8 +21,8 @@ Available users:
 * john/john
 * admin/admin
 
-If you start the server without NODE_ENV set it will be in development mode and automatically detect changes in the 
-plugin-packages folder and hot reload plugins. 
+If you start the server without NODE_ENV set it will be in development mode and automatically detect changes in the
+plugin-packages folder and hot reload plugins.
 
 ## Docker
 
@@ -30,13 +30,12 @@ To run the server within a docker container:
 
     npm run docker:create-image
     npm run docker:start
-    
+
 ## Production hints
 
 To run the server in cluster mode you can start it with PM2 like so:
 
-    NODE_ENV=production pm2 start ./mashroom-starter -i max    
-
+    NODE_ENV=production pm2 start ./mashroom-starter -i max
 
 ## Configuration
 
@@ -53,10 +52,10 @@ This quickstart template consists of two *Express* webapps with different templa
 
 ### Adding new Plugins
 
-All modules added in the *plugin-packages* folder are automatically scanned.
+All modules added to the *plugin-packages* folder are scanned automatically.
 
-You can also add plugins as *dependencies* in the root *package.json*. 
-In that case you have to add the path to the installed package to the *pluginPackageFolders* in *mashroom.json*.
+You can also add plugins as *dependencies* in the root *package.json*.
+In that case you have to add the path to the installed package (in node_modules) to the *pluginPackageFolders* in *mashroom.json*.
 
 ## Development
 
