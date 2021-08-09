@@ -1,4 +1,5 @@
 {
+    "$schema": "https://www.mashroom-server.com/schemas/mashroom-server-config.json",
     "name": "Mashroom Quickstart",
     "port": 6060,
     "pluginPackageFolders": [
@@ -16,8 +17,7 @@
     "plugins": {
         "Mashroom Security Services": {
             "provider": "Mashroom Security Simple Provider",
-            "acl": "./acl.json",
-            "loginPage": "/login"
+            "acl": "./acl.json"
         },
         "Mashroom Security Simple Provider": {
             "users": "./users.json"
