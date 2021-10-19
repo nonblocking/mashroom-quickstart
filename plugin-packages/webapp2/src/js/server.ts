@@ -1,6 +1,6 @@
 /* eslint no-console: off */
 
-/* Standalone server, not use if it runs in Mashroom */
+/* Standalone server, will not be use if it runs in Mashroom */
 
 import express from 'express';
 import session from 'express-session';
