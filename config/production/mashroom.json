@@ -27,7 +27,8 @@
             "acl": "./acl.json"
         },
         "Mashroom Security Simple Provider": {
-            "users": "./users.json"
+            "users": "./users.json",
+            "authenticationTimeoutSec": 900
         },
         "Mashroom Helmet Middleware": {
 
