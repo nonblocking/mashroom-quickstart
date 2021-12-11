@@ -15,13 +15,21 @@
     "ignorePlugins": ["Mashroom Session Filestore Provider"],
     "indexPage": "/webapp1",
     "plugins": {
+        "Mashroom Session Middleware": {
+            "provider": "memory",
+            "session": {
+                "cookie": {
+                    "maxAge": 1800000
+                }
+            }
+        },
         "Mashroom Security Services": {
             "provider": "Mashroom Security Simple Provider",
             "acl": "./acl.json"
         },
         "Mashroom Security Simple Provider": {
             "users": "./users.json",
-            "authenticationTimeoutSec": 900
+            "authenticationTimeoutSec": 1200
         },
         "Mashroom Helmet Middleware": {
 

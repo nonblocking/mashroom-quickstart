@@ -16,11 +16,13 @@
         "Mashroom Session Middleware": {
             "provider": "Mashroom Session Filestore Provider",
             "session": {
+                "cookie": {
+                    "maxAge": 1800000
+                }
             }
         },
         "Mashroom Session Filestore Provider": {
-            "path": "../../data/sessions",
-            "ttl": 1200
+            "path": "../../data/sessions"
         },
         "Mashroom Security Services": {
             "provider": "Mashroom Security Simple Provider",
@@ -28,7 +30,7 @@
         },
         "Mashroom Security Simple Provider": {
             "users": "./users.json",
-            "authenticationTimeoutSec": 900
+            "authenticationTimeoutSec": 1200
         },
         "Mashroom Helmet Middleware": {
 
