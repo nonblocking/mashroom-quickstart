@@ -9,6 +9,10 @@ const app = express();
 
 app.use('/assets', express.static(path.join(__dirname, '../public')));
 
+// IMPORTANT: We have to explicitly set the engine here,
+//   because the express module in the root node_modules would not find it here
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+app.engine('jade', require('jade').__express);
 app.set('view engine', 'jade');
 app.set('views', path.join(__dirname, '../views'));
 
