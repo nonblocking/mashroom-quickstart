@@ -9,20 +9,20 @@
         "public/**"
     ],
     "dependencies": {
-        "express-handlebars": "^6.0.2",
+        "express-handlebars": "^6.0.6",
         "handlebars": "^4.7.7"
     },
     "devDependencies": {
-        "@babel/cli": "^7.16.8",
-        "eslint": "^8.6.0",
-        "sass": "^1.47.0",
-        "jest": "^27.4.7",
-        "nodemon": "^2.0.15",
-        "express-session": "^1.17.2",
-        "typescript": "^4.5.4",
+        "@babel/cli": "^7.17.10",
+        "eslint": "^8.17.0",
+        "sass": "^1.52.3",
+        "jest": "^28.1.1",
+        "nodemon": "^2.0.16",
+        "express-session": "^1.17.3",
+        "typescript": "^4.7.3",
         "@types/express-session": "^1.17.4",
         "@types/express-handlebars": "^6.0.0",
-        "express": "^4.17.2"
+        "express": "^4.18.1"
     },
     "scripts": {
         "lint": "eslint --fix src",
@@ -30,21 +30,5 @@
         "build": "babel --extensions .js,.ts src/js -d dist && sass --style=compressed src/sass/index.scss > public/style.css ",
         "start": "node dist/server.js",
         "dev": "nodemon --watch src --exec \"npm run build && npm run start\""
-    },
-    "mashroom": {
-        "devModeBuildScript": "build",
-        "plugins": [
-            {
-                "name": "Webapp 2",
-                "type": "web-app",
-                "bootstrap": "./dist/mashroom-bootstrap.js",
-                "requires": [
-                    "Mashroom Session Middleware"
-                ],
-                "defaultConfig": {
-                    "path": "/webapp2"
-                }
-            }
-        ]
     }
 }

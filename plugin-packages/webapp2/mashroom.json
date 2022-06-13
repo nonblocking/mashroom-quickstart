@@ -1,0 +1,17 @@
+{
+    "$schema": "../../node_modules/@mashroom/mashroom-json-schemas/schemas/mashroom-plugins.json",
+    "devModeBuildScript": "build",
+    "plugins": [
+        {
+            "name": "Webapp 2",
+            "type": "web-app",
+            "bootstrap": "./dist/mashroom-bootstrap.js",
+            "requires": [
+                "Mashroom Session Middleware"
+            ],
+            "defaultConfig": {
+                "path": "/webapp2"
+            }
+        }
+    ]
+}
