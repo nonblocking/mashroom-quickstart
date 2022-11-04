@@ -9,6 +9,10 @@ One webapp is publicly available, one requires authentication. Both share the sa
 If you're interested in the _Mashroom Portal_ and the integration of single page applications,
 check out: https://github.com/nonblocking/mashroom-portal-quickstart
 
+## Prerequisites
+
+* Node.js >= 16
+
 ## Start the server
 
 * npm run setup
