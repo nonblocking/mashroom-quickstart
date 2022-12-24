@@ -10,7 +10,8 @@
         {
             "path": "../../plugin-packages",
             "watch": true
-        }],
+        }
+    ],
     "indexPage": "/webapp1",
     "plugins": {
         "Mashroom Session Middleware": {
