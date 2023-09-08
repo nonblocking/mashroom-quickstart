@@ -15,7 +15,7 @@ check out: https://github.com/nonblocking/mashroom-portal-quickstart
 
 ## Start the server
 
-* npm run setup
+* npm install
 * npm start
 
 Open [http://localhost:6060](http://localhost:6060) in your browser.

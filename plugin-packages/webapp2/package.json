@@ -9,11 +9,11 @@
         "public/**"
     ],
     "dependencies": {
-        "express-handlebars": "^7.0.7",
-        "handlebars": "^4.7.7"
+        "express-handlebars": "^7.1.2",
+        "handlebars": "^4.7.8"
     },
     "devDependencies": {
-        "sass": "^1.63.2",
+        "sass": "^1.66.1",
         "nodemon": "^2.0.22",
         "express-session": "^1.17.3",
         "@types/express-session": "^1.17.7",
