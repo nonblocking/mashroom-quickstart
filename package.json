@@ -3,41 +3,41 @@
     "version": "1.0.0",
     "private": true,
     "engines": {
-        "node": ">=16"
+        "node": ">=18"
     },
     "workspaces": [
         "./plugin-packages/*"
     ],
     "dependencies": {
-        "@mashroom/mashroom": "^2.4.5",
-        "@mashroom/mashroom-docs-static": "^2.4.5",
-        "@mashroom/mashroom-browser-cache": "^2.4.5",
-        "@mashroom/mashroom-helmet": "^2.4.5",
-        "@mashroom/mashroom-i18n": "^2.4.5",
-        "@mashroom/mashroom-error-pages": "^2.4.5",
-        "@mashroom/mashroom-security": "^2.4.5",
-        "@mashroom/mashroom-security-default-login-webapp": "^2.4.5",
-        "@mashroom/mashroom-security-provider-simple": "^2.4.5",
-        "@mashroom/mashroom-session": "^2.4.5",
-        "@mashroom/mashroom-session-provider-filestore": "^2.4.5",
-        "@mashroom/mashroom-storage": "^2.4.5",
-        "@mashroom/mashroom-storage-provider-filestore": "^2.4.5",
-        "@mashroom/mashroom-json-schemas": "^2.4.5"
+        "@mashroom/mashroom": "^2.5.0",
+        "@mashroom/mashroom-docs-static": "^2.5.0",
+        "@mashroom/mashroom-browser-cache": "^2.5.0",
+        "@mashroom/mashroom-helmet": "^2.5.0",
+        "@mashroom/mashroom-i18n": "^2.5.0",
+        "@mashroom/mashroom-error-pages": "^2.5.0",
+        "@mashroom/mashroom-security": "^2.5.0",
+        "@mashroom/mashroom-security-default-login-webapp": "^2.5.0",
+        "@mashroom/mashroom-security-provider-simple": "^2.5.0",
+        "@mashroom/mashroom-session": "^2.5.0",
+        "@mashroom/mashroom-session-provider-filestore": "^2.5.0",
+        "@mashroom/mashroom-storage": "^2.5.0",
+        "@mashroom/mashroom-storage-provider-filestore": "^2.5.0",
+        "@mashroom/mashroom-json-schemas": "^2.5.0"
     },
     "devDependencies": {
-        "@babel/cli": "^7.22.15",
-        "@babel/core": "^7.22.15",
-        "@babel/preset-env": "^7.22.15",
-        "@babel/preset-typescript": "^7.22.15",
-        "eslint": "^8.48.0",
-        "eslint-plugin-jest": "^27.2.3",
+        "@babel/cli": "^7.23.4",
+        "@babel/core": "^7.23.7",
+        "@babel/preset-env": "^7.23.8",
+        "@babel/preset-typescript": "^7.23.3",
+        "eslint": "^8.56.0",
+        "eslint-plugin-jest": "^27.6.2",
         "eslint-plugin-json": "^3.1.0",
-        "jest": "^29.6.4",
-        "@typescript-eslint/parser": "6.6.0",
-        "@typescript-eslint/eslint-plugin": "6.6.0",
-        "typescript": "^5.2.2",
-        "@types/jest": "^29.5.4",
-        "@types/express": "^4.17.17"
+        "jest": "^29.7.0",
+        "@typescript-eslint/parser": "6.18.1",
+        "@typescript-eslint/eslint-plugin": "6.18.1",
+        "typescript": "^5.3.3",
+        "@types/jest": "^29.5.11",
+        "@types/express": "^4.17.21"
     },
     "scripts": {
         "type-check": "npm run type-check --workspaces",

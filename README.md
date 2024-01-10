@@ -11,7 +11,7 @@ check out: https://github.com/nonblocking/mashroom-portal-quickstart
 
 ## Prerequisites
 
-* Node.js >= 16
+* Node.js >= 18
 
 ## Start the server
 
