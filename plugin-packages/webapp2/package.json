@@ -13,12 +13,12 @@
         "handlebars": "^4.7.8"
     },
     "devDependencies": {
-        "sass": "^1.69.7",
-        "nodemon": "^3.0.2",
-        "express-session": "^1.17.3",
-        "@types/express-session": "^1.17.10",
+        "sass": "^1.74.1",
+        "nodemon": "^3.1.0",
+        "express-session": "^1.18.0",
+        "@types/express-session": "^1.18.0",
         "@types/express-handlebars": "^6.0.0",
-        "express": "^4.18.2"
+        "express": "^4.19.2"
     },
     "scripts": {
         "lint": "eslint --fix src",
