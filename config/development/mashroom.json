@@ -20,7 +20,6 @@
             "provider": "memory",
             "session": {
                 "cookie": {
-                    "maxAge": 1800000
                 }
             }
         },
