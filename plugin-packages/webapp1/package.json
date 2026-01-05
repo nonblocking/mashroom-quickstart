@@ -12,11 +12,11 @@
         "jade": "^1.11.0"
     },
     "devDependencies": {
-        "sass": "^1.89.2",
-        "nodemon": "^3.1.10",
-        "express-session": "^1.18.1",
+        "sass": "^1.97.1",
+        "nodemon": "^3.1.11",
+        "express-session": "^1.18.2",
         "@types/express-session": "^1.18.2",
-        "express": "^4.21.2"
+        "express": "^4.22.1"
     },
     "scripts": {
         "lint": "eslint --fix",
